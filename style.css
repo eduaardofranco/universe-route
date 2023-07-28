@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+:root {
+    font-size: 62.5%;
+}
+body {
+    color: #E1E1E6;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    padding-top: 4rem;
+}
+html.home {
+    background: url('./assets/bgHome.png') no-repeat bottom center;
+}
+html.universe {
+    background: url('./assets/bgUniverse.png') no-repeat bottom center;
+}
+html.explorer {
+    background: url('./assets/bgExplorer.png') no-repeat bottom center;
+}
+nav {
+    margin: 0 auto;
+    width: clamp(80%, 100rem, 90%);
+}
+nav ul {
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+nav a {
+    color: #E1E1E6;;
+    display: block;
+    font-size: 2.1rem;
+    text-decoration: none;
+}
+nav a.active {
+    font-weight: bold;
+}
+main {
+    margin: 12.5rem auto 0 auto;
+    width: clamp(80%, 100rem, 90%);
+}
+nav a.active {
+    font-weight: bold;
+}
+h1 {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: bold;
+    margin-bottom: 1.6rem;
+}
+p {
+    color: #E1E1E6;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-top: 1.6rem;
+}
+.home {
+    text-align: center;
+}
+.home h1 {
+    text-align: center;
+}
+.see-more {
+    color: #E1E1E6;
+    border-radius: .7rem;
+    display: inline-block;
+    margin: 2rem auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border: 1px solid white;
+    padding: 1.5rem 3rem;
+}
+.see-more:hover {
+    background-color: #E1E1E6;
+    color: #02799D;
+}
+svg {
+    pointer-events: none;
+}
